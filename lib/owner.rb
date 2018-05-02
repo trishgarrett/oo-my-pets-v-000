@@ -8,7 +8,7 @@ class Owner
 
   def initialize(pets)
     @species = "human"
-    @pets = {fish: [], cats: [], dogs: []}
+    @pets = {fishes: [], cats: [], dogs: []}
     @@all << self
     @name = name
   end
@@ -29,7 +29,7 @@ class Owner
     "I am a #{@species}."
   end
 
-  def buy_fish
+  def buy_fish()
 
   end
 end
