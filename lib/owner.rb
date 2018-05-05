@@ -76,8 +76,8 @@ class Owner
         pet_array.each do|pet|
           pet.mood = "nervous"
         end
-      end 
-      pet_array.clear   
+      end
+      pet_array.clear
         #binding.pry
     end
 end
