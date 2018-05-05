@@ -76,9 +76,11 @@ class Owner
           pet.mood = "nervous"
         end
         pet_array.clear
-      end  
+      end
     end
 
     def list_pets
-    end  
+
+      "I have #{} fish, #{} dog(s), and #{} cat(s)."
+    end
 end
