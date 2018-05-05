@@ -72,7 +72,7 @@ class Owner
 
     def sell_pets
       #binding.pry
-      pets.each do|type, pet|
+      pets.each do|type, pet_array|
         binding.pry
 
 
