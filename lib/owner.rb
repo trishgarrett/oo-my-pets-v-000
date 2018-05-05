@@ -74,6 +74,7 @@ class Owner
 
       if pets.empty?
         true
+      end  
     #  binding.pry
       # pets.each do|key|
       #   key.each do|value|
