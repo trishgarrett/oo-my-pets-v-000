@@ -73,19 +73,10 @@ class Owner
     def sell_pets
       binding.pry
       pets.each do|type, pet|
-        
-        
+
+
       end
-    #  binding.pry
-      # pets.each do|key|
-      #   key.each do|value|
-      #     value.each do|mood|
-      #       if pets.empty? == true
-      #         mood == "nervous"
-      #       end
-      #     end
-      #   end
-      # end
+    
     end
 
 end
