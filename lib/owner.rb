@@ -87,5 +87,6 @@ class Owner
 
           "I have #{} fish, #{} dog(s), and #{} cat(s)."
         end
+      end  
     end
 end
