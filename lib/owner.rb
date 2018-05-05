@@ -84,7 +84,7 @@ class Owner
         pet_array.each do|pet|
         #binding.pry
 
-          "I have #{} fish, #{} dog(s), and #{} cat(s)."
+          "I have #{pet[:fishes].length} fish, #{pet[:dogs].length} dog(s), and #{pet[:cats].length} cat(s)."
         end
       end
     end
