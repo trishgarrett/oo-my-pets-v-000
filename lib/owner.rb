@@ -74,6 +74,7 @@ class Owner
       #binding.pry
       pets.each do|type, pet_array|
         pet_array.each do|pet|
+          pet.mood = "nervous"
         binding.pry
 
 
