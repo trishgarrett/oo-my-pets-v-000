@@ -89,7 +89,7 @@ class Owner
 
           "I have #{options[:fish]} #{type}, #{} #{type}(s), and #{} #{type}(s)."
         end
-      end
+      
 
     end
 end
