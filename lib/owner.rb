@@ -84,12 +84,8 @@ class Owner
       #   pet_array.each do|pet|
       #     pet_array.length
           #binding.pry
-      pets.each do|type, options = {}|
-        binding.pry
 
-          "I have #{options[:fishes]} #{type}, #{options[:dogs]} #{type}(s), and #{options[:cats]} #{type}(s)."
+          "I have #{} fish, #{} dog(s), and #{} cat(s)."
         end
-      
-
     end
 end
