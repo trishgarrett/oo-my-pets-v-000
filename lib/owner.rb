@@ -85,6 +85,6 @@ class Owner
           binding.pry
           "I have #{pet.name} fish, #{} dog(s), and #{} cat(s)."
         end
-      end    
+      end
     end
 end
