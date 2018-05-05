@@ -86,6 +86,6 @@ class Owner
           "I have #{pet_array.lengh} fish, #{} dog(s), and #{} cat(s)."
         end
       end
-      
+
     end
 end
