@@ -81,7 +81,7 @@ class Owner
 
     def list_pets
       pets.each do|type, pet_array|
-        pet.array.each do|pet|
+        pet_array.each do|pet|
           binding.pry
           "I have #{pet.name} fish, #{} dog(s), and #{} cat(s)."
         end
