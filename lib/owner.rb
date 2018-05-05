@@ -73,8 +73,8 @@ class Owner
     def sell_pets
 
       if pets.empty?
-        true
-      end  
+        false
+      end
     #  binding.pry
       # pets.each do|key|
       #   key.each do|value|
